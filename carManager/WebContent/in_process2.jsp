@@ -38,7 +38,7 @@
 		pstmt.setString(4, car_name);
 		pstmt.setString(5, sell_phone);
 		pstmt.setString(6, phone);
-		pstmt.setString(7, address);
+		pstmt.setString(7, address);;
 		
 		pstmt.executeUpdate();
 		//System.out.println("저장 완료");
